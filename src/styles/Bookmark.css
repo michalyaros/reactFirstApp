@@ -1,0 +1,14 @@
+
+.item {
+    position: relative;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-bottom: 10px;
+    list-style-type: none;
+    width: 100%;
+    border-left:    1px  solid #7d82b0;
+    border-right:   1px  solid #7d82b0;
+    border-bottom:  1px  solid #7d82b0;
+    border-top:     1px  solid #7d82b0;
+    font-size: initial;
+}

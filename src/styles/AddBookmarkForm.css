@@ -1,0 +1,44 @@
+.form {
+    width: 100%;
+    font-family: inherit;
+    font-size: inherit;
+    padding: 10px 30px;
+    border-left:    1px  solid #7d82b0;
+    border-right:   1px  solid #7d82b0;
+    border-bottom:  2px  solid #7d82b0;
+    border-top:     15px solid #477187;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.form::-webkit-input-placeholder {
+    color: #C3C3C4;
+    text-align: center;
+}
+
+.form::-moz-placeholder {  /* Firefox 19+ */
+    color: #C3C3C4;
+    text-align: center;
+}
+
+.form:focus::-webkit-input-placeholder {
+    color: transparent;
+    text-align: center;
+}
+
+.form:focus::-moz-placeholder {  /* Firefox 19+ */
+    color: transparent;
+    text-align: center;
+}
+
+.inputElement {
+    width: 500px;
+    height: 20px;
+    margin-right: 20px;
+}
+
+.submitBtn {
+    margin-bottom: 15px;
+    height: 20px;
+}
